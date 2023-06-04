@@ -1,0 +1,135 @@
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'EB Garamond', serif;
+  font-family: 'Lora', serif;
+}
+
+body {
+ 
+  color: #222;
+  padding-bottom: 50px;
+
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav {
+  position: fixed;
+  background-color: #222;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.nav a.current,
+.nav a:hover {
+  color: #c0392b;
+  font-weight: bold;
+}
+
+.hero {
+  background-image: url('img.png/211-noticias-infra-news-telecom-ti.jpg');
+  background-repeat: repeat;
+  background-size: contain;
+  background-position: bottom center;
+  min-height: 100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  z-index: -2;
+  
+}
+
+
+.hero h1 {
+  font-size: 46px;
+  margin: -20px 0 20px;
+  
+}
+
+.hero p {
+  font-size: 30px;
+  letter-spacing: 1px;
+  
+  
+}
+
+.content h2,
+.content h3
+ {
+  font-size: 150%;
+  margin-left:10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+.content p {
+  color: #555;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+  margin: 20px;
+  font-size: 20px;
+}
+.tema{
+  margin-left: 6rem;
+  font-size: 33px;
+    
+}
+
+@media print {
+    
+}
+
+@media screen and (min-width: 300px) and (max-width: 992px){
+
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+
+}
+
+
+@media screen and (min-width: 1200px){
+
+}
+
+
+    
+
