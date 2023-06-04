@@ -131,10 +131,10 @@ footer{
   margin: 10px 50px;
 }
 
-@media only screen and (max-device-width: 900px) {
+@media only screen and (min-device-width: 300) (max-device-width: 900px) {
    body { width:100%; } 
 
-@media screen and (min-width: 300px) and (max-width: 992px){
+/*@media screen and (min-width: 300px) and (max-width: 992px){
 
 
 }
@@ -148,7 +148,7 @@ footer{
 
 @media screen and (min-width: 1200px){
 
-}
+}*/
 
 
     
