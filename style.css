@@ -112,12 +112,20 @@ body {
   font-size: 33px;
     
 }
+footer{
+  background-image: url(img.png/images.jpeg);
+  
+  
+  
+}
 
 
 
 @media screen and (min-width: 300px) and (max-width: 992px){
 
+
 }
+
 
 
 @media screen and (min-width: 992px) and (max-width: 1200px){
