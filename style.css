@@ -94,7 +94,7 @@ body {
 .content h2,
 .content h3
  {
-  font-size: 150%;
+  font-size: 125%;
   margin-left:10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   
@@ -105,20 +105,30 @@ body {
   line-height: 30px;
   letter-spacing: 1.2px;
   margin: 20px;
-  font-siz
+  
 }
 .tema{
   margin-left: 6rem;
   font-size: 33px;
     
 }
+
 footer{
-  background-image: url(img.png/images.jpeg);
-  width: 150%;
-  height: 500%;
-  
-  
-  
+  background-image: url(img.png/img.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 230vh;
+  height: 250vh;
+  margin:0px 0px;
+}
+
+.lista{
+  color: #fff;
+  margin: 40px 15%;
+}
+.lista1{
+  color: #fff;
+  margin: 10px 50px;
 }
 
 
