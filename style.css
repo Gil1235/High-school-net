@@ -117,9 +117,9 @@ footer{
   background-image: url(img.png/img.png);
   background-repeat: no-repeat;
   background-size: contain;
-  width: 210vh;
+  width: 230vh;
   height: 250vh;
-  margin:20px 30px;
+  margin:0px 0px;
 }
 
 .lista{
